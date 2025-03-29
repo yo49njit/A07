@@ -1,0 +1,42 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fffdd8;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(30deg, 
+        #f6bb73 0%, 
+        #f6bb73 30%, 
+        white 50%, 
+        #f6bb73 80%, 
+        #f6bb73 100%);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #931420;
+}
+
+/* Style the main heading */
+main h1 {
+    border-top: 3px solid #931420;
+    border-bottom: 3px solid #931420;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #931420;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
